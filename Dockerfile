@@ -5,7 +5,7 @@
 # - config-db is set up
 # - demo data are in the DB
 #
-FROM sourcepole/qwc-base-db:v2022.09.03
+FROM ghcr.io/neotrade-ts/qwc-base-db:latest
 
 
 # copy demo connection service for migrations
